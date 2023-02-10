@@ -1,42 +1,19 @@
 {
-  "name": "@vue/runtime-dom",
-  "version": "3.2.47",
-  "description": "@vue/runtime-dom",
-  "main": "index.js",
-  "module": "dist/runtime-dom.esm-bundler.js",
-  "types": "dist/runtime-dom.d.ts",
-  "unpkg": "dist/runtime-dom.global.js",
-  "files": [
-    "index.js",
-    "dist"
-  ],
-  "sideEffects": false,
-  "buildOptions": {
-    "name": "VueRuntimeDOM",
-    "formats": [
-      "esm-bundler",
-      "esm-browser",
-      "cjs",
-      "global"
-    ]
+  "name": "add-drop",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vuejs/core.git",
-    "directory": "packages/runtime-dom"
-  },
-  "keywords": [
-    "vue"
-  ],
-  "author": "Evan You",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/vuejs/core/issues"
-  },
-  "homepage": "https://github.com/vuejs/core/tree/main/packages/runtime-dom#readme",
   "dependencies": {
-    "@vue/shared": "3.2.47",
-    "@vue/runtime-core": "3.2.47",
-    "csstype": "^2.6.8"
+    "pinia": "^2.0.28",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.0"
   }
 }
